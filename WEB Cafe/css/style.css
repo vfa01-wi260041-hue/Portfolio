@@ -1,0 +1,393 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family:"Dosis", 'Times New Roman', Times, serif;
+    font-weight: normal;
+    line-height: 1.7;
+    color: #432;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+/* ---------- LAYOUT ---------- */
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1.5rem;
+}
+
+.align-center{
+    text-align: center;
+}
+
+
+
+/* ---------- VIEW POINT ---------- */
+.font-english {
+    font-family: "Bitter",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.page-title,
+.heading-large,
+.heading-medium {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.page-title {
+    margin-top: 2rem;
+    line-height: 1.4;
+}
+
+.heading-large {
+    margin-bottom: 1rem;
+}
+
+/* ---------- MENU BUTTON ---------- */
+.btn{
+    display: inline-block;
+    font-size: 1.5rem;
+    background-color: #0bd;
+    color: #fff;
+    border-radius: 8px;
+    padding: 0.75rem 1.5em;
+    transition: .5s
+}
+
+.btn:hover {
+    background-color: #0090aa;
+    scale: 1.2 1.5; /* x(1.2), y(1.5) */
+    /* translate: 0 30px; x(0), y(30px) */
+}
+
+/* ---------- PAGE HEADER ---------- */
+.page-header {
+    padding-top: 0.5rem;
+}
+
+.logo {
+    width: 210px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+.main-nav a {
+    color: rgb(149, 103, 57);
+}
+
+.main-nav a:hover {
+    color: #0bd;
+    transition: .1s;;
+}
+
+/* ---------- PAGE HEADER COVER---------- */
+.cover {
+    background-size: cover;
+    background-position: center bottom;
+    height: 800px;
+}
+
+.sub-cover{
+    background-size: cover;
+    background-position: center bottom;
+    height: 528px;
+    margin-bottom: 4rem;
+}
+
+/* ---------- PAGE HOME ---------- */
+.cover-home {
+    background-image: url("../images/cover-home-s.webp");
+}
+
+.about {
+    max-width: 736px;
+    padding: 0 1.5rem;
+    margin: 3rem auto 0;
+}
+
+.about p {
+    margin-bottom: 3rem;
+}
+
+
+
+
+/* ^^^^^^^^^^^^^^^NEWS PAGE^^^^^^^^^^^^^^^^^^ */
+.cover-news{
+    background-image: url(..//images/cover-news-s.webp);
+}
+
+.post{
+    margin-bottom: 3rem;
+}
+
+.post-title{
+    font-weight: normal;
+    margin-bottom: 1.25rem;
+}
+
+.post-info{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+ 
+.post-cat{
+    display: flex;
+    gap: .5rem;
+    list-style: none;
+}
+
+.post-cat a {
+    color: #432;
+    background-color: #faf7f0;
+    border-radius: 8px;
+    font-size: .875rem;
+    padding: .5rem .75rem;
+}
+
+.post-cat a:hover{
+    background-color: #c9c2bc;
+}
+
+.post-date{
+    font-size: 0.875rem;
+}
+
+.post-thumbnail{
+    border-radius: 16px;
+    margin-bottom: 1.5rem;
+}
+
+.post p {
+    margin-bottom: 1.5rem;
+}
+
+
+
+/* ^^^^^^^^^^^^^^MENU PAGE^^^^^^^^^^^^^^^^ */
+
+.cover-menu{
+    background-image: url(../images/cover-menu-s.webp);
+}
+.grid{
+    display: grid;
+    gap: 2rem 1.5rem;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.item img{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+
+/* ^^^^^^^^^^^^^^CONTACT PAGE^^^^^^^^^^^^^^^^ */
+
+.cover-contact{
+    background-image: url(..//images/cover-contact-s.webp);
+}
+iframe{
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* ^^^^^^^^^^^^SIDE BAR^^^^^^^^^^^^^^^ */
+
+.side-menu{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.side-menu li {
+    border-bottom: 1px solid #c9c2bc;
+}
+
+.side-menu a {
+    color: #432;
+    display: block;
+    padding: 1rem;
+}
+
+.side-menu a:hover{
+    color: #0bd;
+}
+
+/* ---------- PAGE FOOTER ---------- */
+
+.page-footer {
+    background-image: url("../images/footer-s.webp");
+    background-size: cover;
+    background-position: center;
+    padding-top: 12rem;
+}
+
+.info{
+    width:100%;
+    max-width: 544px;
+    margin: auto;
+    padding: 0 1.5rem;
+    border-spacing: 0;
+}
+
+.info th,
+.info td {
+    border-bottom: 1px solid #c9c2bc;
+}
+
+.info th {
+    text-align: left;
+    font-weight: normal;
+    padding: 1rem;
+}
+
+.info td {
+    padding: 1rem 0;
+}
+
+.copyright {
+    background-color: #432;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 6rem;
+    color: #fff;
+}
+
+
+
+/* For larger size devices, size greater than 800px */
+
+@media (min-width: 800px) {
+    /* Page Title */
+   .page-title{
+        font-size: 5rem; 
+    }
+   .heading-large{
+        font-size: 4rem;
+    }
+    .post-title{
+        font-size: 2rem;
+    }
+
+
+    /* Header */
+   .page-header{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1.5rem;
+    }
+   .main-nav{
+        font-size: 2rem;
+    }
+
+
+    /* Header Cover */
+    .sub-cover {
+        height: 400px;
+        margin-bottom: 6rem;
+    }
+
+
+
+    /* Home */
+    .cover-home{
+        background-image: url("../images/cover-home-l.webp");  
+    }
+    .about{
+        margin: 4rem auto 0;
+    }
+
+    /* NEWS */
+    .cover-news{
+        background-image: url("..//images/cover-news-l.webp");
+    }
+    .news-contents{
+        display: flex;
+        justify-content: space-between;
+    }
+    .post{
+        width: 70%;
+        order: 2;
+    }
+    .sidebar{
+        width: 22%;
+        order: 3;
+    }
+    .ad {
+        order: 1;
+    }
+    .sidebar, .heading-medium{
+        line-height: 1;
+        margin-bottom: 1rem;
+    }
+
+
+
+
+    /* MENU */
+    .cover-menu{
+        background-image: url(../images/cover-menu-l.webp);
+    }
+    .grid{
+        gap: 3rem 2rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .item img{
+        margin-bottom: 1rem;
+    }
+    .item p{
+        font-size: 1rem;
+    }
+    .item-big{
+        grid-column: 1/3; 
+        grid-row: 1/3;
+    }
+    .item-big img{
+        height: 94.5%;
+        width: 100%;
+    }
+    iframe{
+        width: 90%;
+    }
+
+
+
+    /* CONTACT */
+
+    .cover-contact{
+        background-image: url(..//images/cover-contact-l.webp);
+    }
+
+     /* Footer */
+    .page-footer{
+        background-image: url("../images/footer-l.webp");
+        padding-top: 12rem;
+    }
+    .info th{
+        padding-left: 2.5rem;
+    }
+
+
+}
+
+

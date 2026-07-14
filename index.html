@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Webデザイナー TARO YAMADA ポートフォリオ">
+  <meta property="og:url" content="URLが入る">
+  <meta property="og:description" content="TARO YAMADAのポートフォリオサイトです。">
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="TARO YAMADAのポートフォリオサイトです">
+  <title>| Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+
+  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css">
+  <link href="style.css" media="all" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="canonical" href="">
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- ============================================================
+         HEADER  (edit nav items in .header-nav-list)
+    ============================================================= -->
+    <header class="header">
+      <div class="header-inner">
+        <h1 class="header-logo">
+          <a href=".">Portfolio Page</a>
+        </h1>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item"><a href="#works">Works</a></li>
+            <li class="header-nav-item"><a href="#skill">Skill</a></li>
+            <li class="header-nav-item"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="content">
+
+      <!-- ============================================================
+           HERO  (edit name / copy / photo path here)
+      ============================================================= -->
+      <div class="split">
+        <div class="split-body">
+          <p class="split-eyebrow">// frontend designer & developer<span class="cursor"></span></p>
+          <p class="split-title">ダミ<br><span>プラカス・シン</span></p>
+          <p class="head1">
+            Webサイト制作をお考えですか？<br>
+            <span class="split-text">
+              Webデザインからフロントエンド・バックエンド開発まで、トータルでサポートします。機能性と使いやすさを兼ね備えたWebサイトを制作し、あなたのアイデアを形にします。
+            </span>
+            
+          </p>
+          <a class="split-cta" href="#works">
+            View works
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 4v16M5 13l7 7 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+        <div class="split-img">
+          <span class="split-img-tag"><i></i>available for work</span>
+        </div>
+      </div>
+
+      <!-- ============================================================
+           WORKS
+           TO ADD A PROJECT: copy one <a class="works-item">…</a> block
+           and edit the image / name / info / link.
+      ============================================================= -->
+      <section class="works section" id="works">
+        <div class="inner">
+          <p class="eyebrow">// 01 — works</p>
+          <h2 class="title reveal">Selected Works</h2>
+
+          <div class="works-list">
+
+            <a class="works-item reveal" href="..//MY Portfolio Page/GoodSlice Pizza/index.html">
+              <p class="works-img"><img src="goodslice.png" alt="作品名が入る"></p>
+              <div class="works-body">
+                <p class="works-name">GoodSlice Pizza サイト</p>
+                <p class="works-info">Design / Coding (HTML/CSS/JS)</p>
+              </div>
+            </a>
+
+            <a class="works-item reveal" href="..//MY Portfolio Page/WEB Cafe/index.html">
+              <p class="works-img"><img src="web_cafe.webp" alt="作品名が入る"></p>
+              <div class="works-body">
+                <p class="works-name">WEB Cafe サイト</p>
+                <p class="works-info">Design / Coding (HTML/CSS)</p>
+              </div>
+            </a>
+
+            <a class="works-item reveal" href="poster.jpg">
+              <p class="works-img"><img src="model.jpg" alt="作品名が入る"></p>
+              <div class="works-body">
+                <p class="works-name">Movie Poster デザイン</p>
+                <p class="works-info">Poster Design (Photoshop)</p>
+              </div>
+            </a>
+
+            <a class="works-item reveal" href="japansite.html">
+              <p class="works-img"><img src="japan_site.PNG" alt="作品名が入る"></p>
+              <div class="works-body">
+                <p class="works-name">Cultural Shock サイト</p>
+                <p class="works-info">Design (Html)</p>
+              </div>
+            </a>
+
+            <a class="works-item reveal" href="..//Portfolio/dist/NeonBreakout.exe">
+              <p class="works-img"><img src="game.png" alt="作品名が入る"></p>
+              <div class="works-body">
+                <p class="works-name">Neon Breakout ゲーム(exe)</p>
+                <p class="works-info">Game Design (Python)</p>
+              </div>
+            </a>
+
+            <!-- duplicate this block for a 6th project, or delete any block above to remove one -->
+            <!-- <a class="works-item reveal" href="works-template.html">
+              <p class="works-img"><img src="img/works-dummy-thumb.jpg" alt="作品名が入る"></p>
+              <div class="works-body">
+                <p class="works-name">作品名が入る</p>
+                <p class="works-info">Landing Page</p> -->
+              </div>
+            </a>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+           SKILL
+           TO ADD A SKILL: copy one .skill-item block. Icons are inline
+           SVG badges (colored squares) — swap the <svg> or the fill
+           colors to match a new tool.
+      ============================================================= -->
+      <section class="skill section" id="skill">
+        <div class="inner">
+          <p class="eyebrow">// 02 — skill</p>
+          <h2 class="title reveal">Tools &amp; Skills</h2>
+
+          <div class="skill-list">
+
+            <div class="skill-item reveal">
+              <p class="skill-img">
+                <svg viewBox="0 0 44 44"><rect width="44" height="44" rx="10" fill="#E44D26"/><path d="M13 12h18l-1.6 18L22 32.5 13.6 30 13 12z" fill="none"/><text x="22" y="27" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700" fill="#fff">&lt;/&gt;</text></svg>
+              </p>
+              <div class="skill-body">
+                <h3 class="skill-name">HTML5 / CSS3</h3>
+                <p class="skill-text">セマンティックなマークアップと、保守しやすい設計を意識したコーディングが得意です。</p>
+              </div>
+            </div>
+
+            <div class="skill-item reveal">
+              <p class="skill-img">
+                <svg viewBox="0 0 44 44"><rect width="44" height="44" rx="10" fill="#21759B"/><text x="22" y="28" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="700" fill="#fff">W</text></svg>
+              </p>
+              <div class="skill-body">
+                <h3 class="skill-name">WordPress</h3>
+                <p class="skill-text">オリジナルテーマの構築やカスタマイズ、更新のしやすい管理画面設計に対応します。</p>
+              </div>
+            </div>
+
+            <div class="skill-item reveal">
+              <p class="skill-img">
+                <svg viewBox="0 0 44 44"><rect width="44" height="44" rx="10" fill="#F0DB4F"/><text x="22" y="28" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700" fill="#14171C">JS</text></svg>
+              </p>
+              <div class="skill-body">
+                <h3 class="skill-name">JavaScript</h3>
+                <p class="skill-text">アニメーションやインタラクションなど、体験を豊かにする実装を行います。</p>
+              </div>
+            </div>
+
+            <div class="skill-item reveal">
+              <p class="skill-img">
+                <svg viewBox="0 0 44 44"><rect width="44" height="44" rx="10" fill="#31A8FF"/><text x="22" y="28" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="14" font-weight="700" fill="#001E36">Ps</text></svg>
+              </p>
+              <div class="skill-body">
+                <h3 class="skill-name">Photoshop</h3>
+                <p class="skill-text">写真の補整や合成、Webサイト用のグラフィック制作に活用しています。</p>
+              </div>
+            </div>
+
+            <div class="skill-item reveal">
+              <p class="skill-img">
+                <svg viewBox="0 0 44 44"><rect width="44" height="44" rx="10" fill="#FF9A00"/><text x="22" y="28" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a">Ai</text></svg>
+              </p>
+              <div class="skill-body">
+                <h3 class="skill-name">Illustrator</h3>
+                <p class="skill-text">ロゴやアイコン、バナーなどベースのグラフィック制作を得意としています。</p>
+              </div>
+            </div>
+
+            <div class="skill-item reveal">
+              <p class="skill-img">
+                <svg viewBox="0 0 44 44"><rect width="44" height="44" rx="10" fill="#FF61F6"/><text x="22" y="28" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="14" font-weight="700" fill="#fff">Xd</text></svg>
+              </p>
+              <div class="skill-body">
+                <h3 class="skill-name">Adobe XD</h3>
+                <p class="skill-text">ワイヤーフレームからUIデザイン、プロトタイプ作成までを一貫して行います。</p>
+              </div>
+            </div>
+            
+             <div class="skill-item reveal">
+              <p class="skill-img">
+                <svg viewBox="0 0 44 44"><rect width="44" height="44" rx="10" fill="Yellow"/><text x="22" y="28" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="14" font-weight="700" fill="#001E36">Py</text></svg>
+              </p>
+              <div class="skill-body">
+                <h3 class="skill-name">Python</h3>
+                <p class="skill-text">自動化やバックエンド開発を中心に、効率的で保守性の高いプログラムを開発しています。</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+           CONTACT  (edit links / email here)
+      ============================================================= -->
+      <section class="contact section" id="contact">
+        <div class="inner contact-inner">
+          <p class="eyebrow">// 03 — contact</p>
+          <h2 class="title reveal">Get In Touch</h2>
+          <p class="lead reveal">
+            お問い合わせは、<br class="sp-only">SNSかメールにてお願いいたします。
+          </p>
+          <div class="contact-list reveal">
+            <a class="contact-item" href="https://www.facebook.com/prakasz.dhami.1" target="_blank" rel="noopener">Facebook</a>
+            <a class="contact-item" href="https://www.instagram.com/prakasz.pz/" target="_blank" rel="noopener">Instagram</a>
+            <a class="contact-item" href="mailto:xxxxxx@gmail.com">dhamiprakasz618@gmail.com</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+    </main>
+
+    <!-- ============================================================
+         FOOTER
+    ============================================================= -->
+    <footer class="footer">
+      <div class="copyright">&copy; DHAMI PRAKASH SINGH</div>
+    </footer>
+
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
