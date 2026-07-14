@@ -66,7 +66,7 @@ img {
 }
 
 .split-img{
-  background-image: url(kageyama.jpg);
+  background-image: url(accets/kageyama.jpg);
 }
 ul, li {
   list-style: none;
@@ -317,7 +317,7 @@ a {
   width: 70%;
   min-height: 100vh;
   position: relative;
-  background-image: url(kageyama.jpg);
+  background-image: url(accets/kageyama.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -718,7 +718,7 @@ a {
   /* hero */
   .split { flex-direction: column-reverse; }
   .split-body { width: 100%; min-height: auto; padding: 90px 22px 60px; }
-  .split-img { width: 100%; min-height: 62vh; margin-top: 3.6rem; background-image: url(kageyama.jpg); }
+  .split-img { width: 100%; min-height: 62vh; margin-top: 3.6rem; background-image: url(accets/kageyama.jpg); }
   .split-title { font-size: 40px; }
   .split-text { max-width: 100%; }
 
