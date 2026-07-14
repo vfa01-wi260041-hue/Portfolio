@@ -202,16 +202,16 @@ h1{
     margin-bottom: 4rem;
 }
 .cover-home{
-    background-image: url(../images/cover-home-s.jpg);
+    background-image: url(images/cover-home-s.jpg);
 }
 .cover-news{
-    background-image: url(../images/cover-home-s.jpg);
+    background-image: url(images/cover-home-s.jpg);
 }
 .cover-menu{
-    background-image: url(../images/cover-home-s.jpg);
+    background-image: url(images/cover-home-s.jpg);
 }
 .cover-contact{
-    background-image: url(../images/cover-home-s.jpg);
+    background-image: url(images/cover-home-s.jpg);
     margin-bottom: 0;
 }
 
@@ -532,7 +532,7 @@ iframe{
    ========================================================================== */
 .page-footer{
     background-color: var(--crust);
-    background-image: linear-gradient(180deg, rgba(32,18,10,0) 0%, rgba(32,18,10,.6) 40%), url(../images/footer-l.jpg);
+    background-image: linear-gradient(180deg, rgba(32,18,10,0) 0%, rgba(32,18,10,.6) 40%), url(images/footer-l.jpg);
     background-size: cover;
     background-position: center bottom;
     padding-top: 6rem;
