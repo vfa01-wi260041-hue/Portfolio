@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://portfolio-beige-delta-p0fg7f4uwk.vercel.app/sitemap.xml
